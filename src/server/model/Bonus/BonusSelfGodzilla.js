@@ -12,6 +12,7 @@ function BonusSelfGodzilla(x, y)
 BonusSelfGodzilla.prototype = Object.create(BonusSelf.prototype);
 BonusSelfGodzilla.prototype.constructor = BonusSelfGodzilla;
 
+BonusSelfGodzilla.prototype.duration = 5000;
 /**
  * Get effects
  *
@@ -24,7 +25,7 @@ BonusSelfGodzilla.prototype.getEffects = function(avatar)
     return [
         ['invincible', true],
         ['printing', 100],
-        ['radius', 10],
-        ['velocity', 6]
+        ['radius', 3],
+        ['velocity', 5]
     ];
 };

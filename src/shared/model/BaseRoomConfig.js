@@ -19,6 +19,7 @@ function BaseRoomConfig(room)
         BonusSelfSlow: true,
         BonusSelfFast: true,
         BonusSelfMaster: true,
+        BonusSelfGodzilla: true,
         BonusEnemySlow: true,
         BonusEnemyFast: true,
         BonusEnemyBig: true,

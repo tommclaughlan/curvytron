@@ -28,5 +28,5 @@ BonusEnemyBig.prototype.duration = 7500;
  */
 BonusEnemyBig.prototype.getEffects = function(avatar)
 {
-    return [['radius', 1]];
+    return [['radius', 2]];
 };
